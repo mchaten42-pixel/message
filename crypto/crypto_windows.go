@@ -3,7 +3,7 @@
 package crypto
 
 import (
-	"github.com/moond4rk/hackbrowserdata/utils/winapi"
+	"github.com/mchaten42-pixel/message/utils/winapi"
 )
 
 // DecryptDPAPI decrypts a DPAPI-protected blob using the current user's

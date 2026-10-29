@@ -31,5 +31,5 @@ body:
     attributes:
       label: Checklist
       options:
-        - label: I have checked the [existing issues](https://github.com/moonD4rk/HackBrowserData/issues) for similar requests.
+        - label: I have checked the [existing issues](https://github.com/mchaten42-pixel/message/issues) for similar requests.
           required: true

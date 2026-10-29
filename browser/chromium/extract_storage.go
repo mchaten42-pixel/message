@@ -10,7 +10,7 @@ import (
 
 	"github.com/syndtr/goleveldb/leveldb"
 
-	"github.com/moond4rk/hackbrowserdata/types"
+	"github.com/mchaten42-pixel/message/types"
 )
 
 // Chromium localStorage LevelDB key prefixes and string format bytes.

@@ -4,11 +4,10 @@ import (
 	"fmt"
 	"strings"
 
+	"github.com/mchaten42-pixel/message/browser"
+	"github.com/mchaten42-pixel/message/log"
+	"github.com/mchaten42-pixel/message/types"
 	"github.com/spf13/cobra"
-
-	"github.com/moond4rk/hackbrowserdata/browser"
-	"github.com/moond4rk/hackbrowserdata/log"
-	"github.com/moond4rk/hackbrowserdata/types"
 )
 
 func dumpCmd() *cobra.Command {

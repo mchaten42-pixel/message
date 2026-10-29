@@ -6,9 +6,9 @@ import (
 	"path/filepath"
 	"strings"
 
-	"github.com/moond4rk/hackbrowserdata/log"
-	"github.com/moond4rk/hackbrowserdata/masterkey"
-	"github.com/moond4rk/hackbrowserdata/types"
+	"github.com/mchaten42-pixel/message/log"
+	"github.com/mchaten42-pixel/message/masterkey"
+	"github.com/mchaten42-pixel/message/types"
 )
 
 // BuildDump exports one Vault per installation (Firefox/Safari, lacking KeyManager, are skipped).

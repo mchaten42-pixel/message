@@ -5,7 +5,7 @@ import (
 
 	"github.com/tidwall/gjson"
 
-	"github.com/moond4rk/hackbrowserdata/types"
+	"github.com/mchaten42-pixel/message/types"
 )
 
 func extractExtensions(path string) ([]types.ExtensionEntry, error) {

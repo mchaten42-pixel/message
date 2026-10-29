@@ -5,7 +5,7 @@ import (
 	"io"
 	"strings"
 
-	"github.com/moond4rk/hackbrowserdata/types"
+	"github.com/mchaten42-pixel/message/types"
 )
 
 // cookieEditorFormatter outputs cookies in the CookieEditor browser extension

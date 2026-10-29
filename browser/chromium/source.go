@@ -1,8 +1,8 @@
 package chromium
 
 import (
-	"github.com/moond4rk/hackbrowserdata/masterkey"
-	"github.com/moond4rk/hackbrowserdata/types"
+	"github.com/mchaten42-pixel/message/masterkey"
+	"github.com/mchaten42-pixel/message/types"
 )
 
 // sourcePath describes a single candidate location for browser data,

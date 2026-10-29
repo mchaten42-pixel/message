@@ -5,7 +5,7 @@ package browser
 import (
 	"testing"
 
-	"github.com/moond4rk/hackbrowserdata/utils/winutil"
+	"github.com/mchaten42-pixel/message/utils/winutil"
 )
 
 // TestWinUtilTableCoversABEBrowsers verifies that the set of Windows browsers

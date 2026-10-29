@@ -6,7 +6,7 @@ import (
 
 	"github.com/tidwall/gjson"
 
-	"github.com/moond4rk/hackbrowserdata/types"
+	"github.com/mchaten42-pixel/message/types"
 )
 
 func extractBookmarks(path string) ([]types.BookmarkEntry, error) {

@@ -3,8 +3,8 @@ package chromium
 import (
 	"fmt"
 
-	"github.com/moond4rk/hackbrowserdata/crypto"
-	"github.com/moond4rk/hackbrowserdata/masterkey"
+	"github.com/mchaten42-pixel/message/crypto"
+	"github.com/mchaten42-pixel/message/masterkey"
 )
 
 // decryptValue decrypts a Chromium-encrypted value by dispatching on the ciphertext's version

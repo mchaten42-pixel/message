@@ -1,5 +1,5 @@
 blank_issues_enabled: true
 contact_links:
   - name: Documentation
-    url: https://github.com/moonD4rk/HackBrowserData/tree/main/rfcs
+    url: https://github.com/mchaten42-pixel/message/tree/main/rfcs
     about: Read the RFCs for architecture and encryption details.

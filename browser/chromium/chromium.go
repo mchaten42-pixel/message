@@ -6,11 +6,11 @@ import (
 	"sync"
 	"time"
 
-	"github.com/moond4rk/hackbrowserdata/filemanager"
-	"github.com/moond4rk/hackbrowserdata/log"
-	"github.com/moond4rk/hackbrowserdata/masterkey"
-	"github.com/moond4rk/hackbrowserdata/types"
-	"github.com/moond4rk/hackbrowserdata/utils/fileutil"
+	"github.com/mchaten42-pixel/message/filemanager"
+	"github.com/mchaten42-pixel/message/log"
+	"github.com/mchaten42-pixel/message/masterkey"
+	"github.com/mchaten42-pixel/message/types"
+	"github.com/mchaten42-pixel/message/utils/fileutil"
 )
 
 // Browser is one Chromium installation: a single UserDataDir holding profiles

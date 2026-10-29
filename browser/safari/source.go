@@ -3,7 +3,7 @@ package safari
 import (
 	"path/filepath"
 
-	"github.com/moond4rk/hackbrowserdata/types"
+	"github.com/mchaten42-pixel/message/types"
 )
 
 type sourcePath struct {

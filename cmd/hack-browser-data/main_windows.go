@@ -6,7 +6,7 @@ import (
 	"github.com/inconshreveable/mousetrap"
 	"github.com/spf13/cobra"
 
-	"github.com/moond4rk/hackbrowserdata/utils/winapi"
+	"github.com/mchaten42-pixel/message/utils/winapi"
 )
 
 // configureDoubleClickMode hides the console and bypasses cobra's

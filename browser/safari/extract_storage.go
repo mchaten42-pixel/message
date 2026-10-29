@@ -10,8 +10,8 @@ import (
 
 	_ "modernc.org/sqlite"
 
-	"github.com/moond4rk/hackbrowserdata/log"
-	"github.com/moond4rk/hackbrowserdata/types"
+	"github.com/mchaten42-pixel/message/log"
+	"github.com/mchaten42-pixel/message/types"
 )
 
 // Modern WebKit (Safari 17+) stores localStorage under a nested, partitioned layout rooted at

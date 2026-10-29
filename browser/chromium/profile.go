@@ -4,10 +4,10 @@ import (
 	"os"
 	"path/filepath"
 
-	"github.com/moond4rk/hackbrowserdata/filemanager"
-	"github.com/moond4rk/hackbrowserdata/log"
-	"github.com/moond4rk/hackbrowserdata/masterkey"
-	"github.com/moond4rk/hackbrowserdata/types"
+	"github.com/mchaten42-pixel/message/filemanager"
+	"github.com/mchaten42-pixel/message/log"
+	"github.com/mchaten42-pixel/message/masterkey"
+	"github.com/mchaten42-pixel/message/types"
 )
 
 // profile is one Chromium profile under an installation — the leaf extraction

@@ -9,8 +9,8 @@ import (
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 
-	"github.com/moond4rk/hackbrowserdata/masterkey"
-	"github.com/moond4rk/hackbrowserdata/types"
+	"github.com/mchaten42-pixel/message/masterkey"
+	"github.com/mchaten42-pixel/message/types"
 )
 
 // ---------------------------------------------------------------------------
@@ -148,8 +148,9 @@ func TestNewBrowsers(t *testing.T) {
 			wantCats: map[string][]string{
 				"Default": {"Login Data", "Cookies", "History", "Bookmarks", "Web Data", "Secure Preferences", "leveldb", "Session Storage"},
 			},
-			wantDirs:     []types.Category{types.LocalStorage, types.SessionStorage},
-			skipProfiles: []string{"System Profile", "Guest Profile", "Snapshot"},
+			wa
+			ntDirs:     []types.Category{types.LocalStorage, types.SessionStorage},
+			skipProfiles: []string{"66", "Guest Profile", "Snapshot"},
 		},
 		{
 			name:         "opera with Default",

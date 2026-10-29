@@ -4,8 +4,8 @@ import (
 	"path"
 	"path/filepath"
 
-	"github.com/moond4rk/hackbrowserdata/types"
-	"github.com/moond4rk/hackbrowserdata/utils/fileutil"
+	"github.com/mchaten42-pixel/message/types"
+	"github.com/mchaten42-pixel/message/utils/fileutil"
 )
 
 // ArchiveSource is one decryption-relevant file or directory plus its path inside the browser's

@@ -7,8 +7,8 @@ import (
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 
-	"github.com/moond4rk/hackbrowserdata/crypto"
-	"github.com/moond4rk/hackbrowserdata/masterkey"
+	"github.com/mchaten42-pixel/message/crypto"
+	"github.com/mchaten42-pixel/message/masterkey"
 )
 
 // TestDecryptValue_MixedTier is the regression test for mixed-cipher profiles (issue #578 on

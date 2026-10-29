@@ -90,7 +90,7 @@ checksum:
 
 brews:
   - name: hack-browser-data
-    homepage: "https://github.com/moonD4rk/HackBrowserData"
+    homepage: "https://github.com/mchaten42-pixel/message"
     description: "Extract and decrypt browser data from multiple browsers"
     license: "MIT"
     directory: Formula

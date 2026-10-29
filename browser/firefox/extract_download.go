@@ -7,8 +7,8 @@ import (
 
 	"github.com/tidwall/gjson"
 
-	"github.com/moond4rk/hackbrowserdata/types"
-	"github.com/moond4rk/hackbrowserdata/utils/sqliteutil"
+	"github.com/mchaten42-pixel/message/types"
+	"github.com/mchaten42-pixel/message/utils/sqliteutil"
 )
 
 const (

@@ -1,4 +1,4 @@
-module github.com/moond4rk/hackbrowserdata
+module github.com/mchaten42-pixel/message
 
 go 1.20
 

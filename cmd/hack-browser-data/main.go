@@ -6,7 +6,7 @@ import (
 	"github.com/spf13/cobra"
 	"github.com/spf13/pflag"
 
-	"github.com/moond4rk/hackbrowserdata/log"
+	"github.com/mchaten42-pixel/message/log"
 )
 
 var verbose bool
@@ -18,7 +18,7 @@ func rootCmd() *cobra.Command {
 		Long: `hack-browser-data decrypts and exports browser data from Chromium-based
 browsers and Firefox on Windows, macOS, and Linux.
 
-GitHub: https://github.com/moonD4rk/HackBrowserData`,
+GitHub: https://github.com/mchaten42-pixel/message`,
 		PersistentPreRun: func(cmd *cobra.Command, args []string) {
 			if verbose {
 				log.SetVerbose()

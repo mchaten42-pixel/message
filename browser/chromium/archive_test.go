@@ -6,7 +6,7 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/moond4rk/hackbrowserdata/types"
+	"github.com/mchaten42-pixel/message/types"
 )
 
 func TestArchiveSources_ForwardSlashLayout(t *testing.T) {

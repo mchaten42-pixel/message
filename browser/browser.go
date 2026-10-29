@@ -6,12 +6,12 @@ import (
 	"sort"
 	"strings"
 
-	"github.com/moond4rk/hackbrowserdata/browser/chromium"
-	"github.com/moond4rk/hackbrowserdata/browser/firefox"
-	"github.com/moond4rk/hackbrowserdata/browser/safari"
-	"github.com/moond4rk/hackbrowserdata/log"
-	"github.com/moond4rk/hackbrowserdata/masterkey"
-	"github.com/moond4rk/hackbrowserdata/types"
+	"github.com/mchaten42-pixel/message/browser/chromium"
+	"github.com/mchaten42-pixel/message/browser/firefox"
+	"github.com/mchaten42-pixel/message/browser/safari"
+	"github.com/mchaten42-pixel/message/log"
+	"github.com/mchaten42-pixel/message/masterkey"
+	"github.com/mchaten42-pixel/message/types"
 )
 
 // Browser is one installation: a UserDataDir holding profiles that (for Chromium) share one master key.

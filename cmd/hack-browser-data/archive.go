@@ -3,8 +3,8 @@ package main
 import (
 	"github.com/spf13/cobra"
 
-	"github.com/moond4rk/hackbrowserdata/browser"
-	"github.com/moond4rk/hackbrowserdata/log"
+	"github.com/mchaten42-pixel/message/browser"
+	"github.com/mchaten42-pixel/message/log"
 )
 
 func archiveCmd() *cobra.Command {

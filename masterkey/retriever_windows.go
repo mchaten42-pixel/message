@@ -9,7 +9,7 @@ import (
 
 	"github.com/tidwall/gjson"
 
-	"github.com/moond4rk/hackbrowserdata/crypto"
+	"github.com/mchaten42-pixel/message/crypto"
 )
 
 // DPAPIRetriever unwraps Chrome's Local State os_crypt.encrypted_key via Windows DPAPI.

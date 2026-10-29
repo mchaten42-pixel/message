@@ -6,7 +6,7 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/moond4rk/hackbrowserdata/crypto/windows/abe_native/bootstrap"
+	"github.com/mchaten42-pixel/message/crypto/windows/abe_native/bootstrap"
 )
 
 func TestFormatABEError(t *testing.T) {

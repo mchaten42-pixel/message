@@ -4,11 +4,11 @@ import (
 	"fmt"
 	"path/filepath"
 
-	"github.com/moond4rk/hackbrowserdata/browser"
-	"github.com/moond4rk/hackbrowserdata/log"
-	"github.com/moond4rk/hackbrowserdata/output"
-	"github.com/moond4rk/hackbrowserdata/types"
-	"github.com/moond4rk/hackbrowserdata/utils/fileutil"
+	"github.com/mchaten42-pixel/message/browser"
+	"github.com/mchaten42-pixel/message/log"
+	"github.com/mchaten42-pixel/message/output"
+	"github.com/mchaten42-pixel/message/types"
+	"github.com/mchaten42-pixel/message/utils/fileutil"
 )
 
 func extractAndWrite(browsers []browser.Browser, categories []types.Category, outputDir, outputFormat string, compress bool) error {

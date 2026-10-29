@@ -5,7 +5,7 @@ package injector
 import (
 	"fmt"
 
-	"github.com/moond4rk/hackbrowserdata/crypto/windows/abe_native/bootstrap"
+	"github.com/mchaten42-pixel/message/crypto/windows/abe_native/bootstrap"
 )
 
 // abeErrNames maps the payload's ABE_ERR_* category byte (written into

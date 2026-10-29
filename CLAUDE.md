@@ -31,7 +31,7 @@ golangci-lint run
 
 # Format (gofumpt is stricter than gofmt)
 gofumpt -l -w .
-goimports -w -local github.com/moond4rk/hackbrowserdata .
+goimports -w -local github.com/mchaten42-pixel/message .
 
 # Spelling
 typos

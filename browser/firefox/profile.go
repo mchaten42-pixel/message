@@ -4,10 +4,10 @@ import (
 	"fmt"
 	"path/filepath"
 
-	"github.com/moond4rk/hackbrowserdata/filemanager"
-	"github.com/moond4rk/hackbrowserdata/log"
-	"github.com/moond4rk/hackbrowserdata/types"
-	"github.com/moond4rk/hackbrowserdata/utils/fileutil"
+	"github.com/mchaten42-pixel/message/filemanager"
+	"github.com/mchaten42-pixel/message/log"
+	"github.com/mchaten42-pixel/message/types"
+	"github.com/mchaten42-pixel/message/utils/fileutil"
 )
 
 // profile is one Firefox profile — the leaf extraction unit. Unlike Chromium,

@@ -5,11 +5,11 @@ import (
 	"os"
 	"path/filepath"
 
-	"github.com/moond4rk/hackbrowserdata/browser/chromium"
-	"github.com/moond4rk/hackbrowserdata/filemanager"
-	"github.com/moond4rk/hackbrowserdata/log"
-	"github.com/moond4rk/hackbrowserdata/types"
-	"github.com/moond4rk/hackbrowserdata/utils/fileutil"
+	"github.com/mchaten42-pixel/message/browser/chromium"
+	"github.com/mchaten42-pixel/message/filemanager"
+	"github.com/mchaten42-pixel/message/log"
+	"github.com/mchaten42-pixel/message/types"
+	"github.com/mchaten42-pixel/message/utils/fileutil"
 )
 
 // Archivable is implemented by installations that can enumerate their decryption-relevant files for

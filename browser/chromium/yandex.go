@@ -10,8 +10,8 @@ import (
 
 	_ "modernc.org/sqlite"
 
-	"github.com/moond4rk/hackbrowserdata/crypto"
-	"github.com/moond4rk/hackbrowserdata/types"
+	"github.com/mchaten42-pixel/message/crypto"
+	"github.com/mchaten42-pixel/message/types"
 )
 
 // yandexSourceOverrides contains only the entries that differ from chromiumSources.

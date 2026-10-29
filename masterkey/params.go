@@ -5,7 +5,7 @@ package masterkey
 import (
 	"hash"
 
-	"github.com/moond4rk/hackbrowserdata/crypto"
+	"github.com/mchaten42-pixel/message/crypto"
 )
 
 // pbkdf2Params holds platform-specific PBKDF2 parameters (each platform file defines its own).

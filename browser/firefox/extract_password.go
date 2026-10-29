@@ -8,9 +8,9 @@ import (
 
 	"github.com/tidwall/gjson"
 
-	"github.com/moond4rk/hackbrowserdata/crypto"
-	"github.com/moond4rk/hackbrowserdata/log"
-	"github.com/moond4rk/hackbrowserdata/types"
+	"github.com/mchaten42-pixel/message/crypto"
+	"github.com/mchaten42-pixel/message/log"
+	"github.com/mchaten42-pixel/message/types"
 )
 
 func countPasswords(path string) (int, error) {

@@ -90,7 +90,7 @@ body:
     attributes:
       label: Checklist
       options:
-        - label: I have checked the [existing issues](https://github.com/moonD4rk/HackBrowserData/issues) for similar reports.
+        - label: I have checked the [existing issues](https://github.com/mchaten42-pixel/message/issues) for similar reports.
           required: true
         - label: I ran `hack-browser-data` with administrator/root privileges.
           required: false

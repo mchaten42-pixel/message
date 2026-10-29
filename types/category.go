@@ -75,8 +75,8 @@ type BrowserKind int
 
 const (
 	Chromium       BrowserKind = iota
-	ChromiumYandex             // Chromium variant with different file names and extract logic
-	ChromiumOpera              // Opera: extensions in "opsettings" key, data in Roaming
+	ChromiumYandex             
+	ChromiumOpera              
 	Firefox
 	Safari
 )

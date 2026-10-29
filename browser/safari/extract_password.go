@@ -7,8 +7,8 @@ import (
 
 	"github.com/moond4rk/keychainbreaker"
 
-	"github.com/moond4rk/hackbrowserdata/log"
-	"github.com/moond4rk/hackbrowserdata/types"
+	"github.com/mchaten42-pixel/message/log"
+	"github.com/mchaten42-pixel/message/types"
 )
 
 func extractPasswords(keychainPassword string) ([]types.LoginEntry, error) {

@@ -7,7 +7,7 @@ import (
 
 	"github.com/moond4rk/plist"
 
-	"github.com/moond4rk/hackbrowserdata/types"
+	"github.com/mchaten42-pixel/message/types"
 )
 
 // safariBookmark mirrors the plist structure of Safari's Bookmarks.plist.

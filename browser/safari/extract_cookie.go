@@ -7,7 +7,7 @@ import (
 
 	"github.com/moond4rk/binarycookies"
 
-	"github.com/moond4rk/hackbrowserdata/types"
+	"github.com/mchaten42-pixel/message/types"
 )
 
 func extractCookies(path string) ([]types.CookieEntry, error) {

@@ -6,8 +6,8 @@ import (
 	"encoding/binary"
 	"testing"
 
-	"github.com/moond4rk/hackbrowserdata/crypto/windows/abe_native/bootstrap"
-	"github.com/moond4rk/hackbrowserdata/utils/winapi"
+	"github.com/mchaten42-pixel/message/crypto/windows/abe_native/bootstrap"
+	"github.com/mchaten42-pixel/message/utils/winapi"
 )
 
 // The C payload reads BootstrapParams by field offset while Go writes it as a flat byte

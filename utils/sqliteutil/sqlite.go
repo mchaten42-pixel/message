@@ -8,7 +8,7 @@ import (
 	// sqlite3 driver for database/sql
 	_ "modernc.org/sqlite"
 
-	"github.com/moond4rk/hackbrowserdata/log"
+	"github.com/mchaten42-pixel/message/log"
 )
 
 // QuerySQLite opens a SQLite database, optionally disables journal mode (required

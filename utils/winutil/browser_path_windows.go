@@ -12,7 +12,7 @@ import (
 	"golang.org/x/sys/windows"
 	"golang.org/x/sys/windows/registry"
 
-	"github.com/moond4rk/hackbrowserdata/utils/winapi"
+	"github.com/mchaten42-pixel/message/utils/winapi"
 )
 
 // ErrExecutableNotFound is returned when a browser's executable cannot be
